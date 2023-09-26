@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+</head>
+<body>
+    <df-messenger
+        project-id="vertex-ai-dynpro"
+        agent-id="cd1dee12-8c6b-4ceb-8e8d-fd3264056f09"
+        language-code="en">
+        <df-messenger-chat-bubble chat-title="Google Store1"></df-messenger-chat-bubble>
+    </df-messenger>
+
+    <style>
+        /* CSS styles for positioning the chat widget */
+        df-messenger {
+            z-index: 999;
+            position: fixed;
+            bottom: 16px;
+            right: 16px;
+        }
+    </style>
+</body>
+</html>
